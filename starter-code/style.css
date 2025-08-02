@@ -48,6 +48,7 @@ header {
   padding: 2em 1.5em;
   border-bottom-left-radius: 100% 12%;
   border-bottom-right-radius: 100% 12%;
+  margin-bottom: 10em;
 }
 
 nav {
@@ -111,6 +112,55 @@ button:hover {
   height: auto;
   top: 28em;
   left: 2em;
+}
+
+/* Features Section */
+
+.features-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-section article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.number {
+  border-radius: 50%;
+  border: 0.1em solid #000;
+  margin-bottom: 2em;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.number,
+.features-section h3 {
+  font-family: "Fraunces", sans-serif, serif;
+}
+
+.features-section h3 {
+  margin-bottom: 1.5em;
+  font-size: var(--h3FontSize);
+  font-weight: lighter;
+}
+
+.article-text {
+  font-family: "Manrope", sans-serif, serif;
+  line-height: var(--par1LineHeight);
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 /* ... */
