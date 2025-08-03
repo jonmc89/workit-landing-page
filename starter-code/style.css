@@ -71,6 +71,7 @@ nav {
   text-decoration-thickness: 0.2em;
   text-underline-offset: 0.5em;
   transition: color 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .nav-link:hover {
@@ -99,6 +100,7 @@ button {
   font-size: var(--parFontSize);
   font-weight: bold;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 button:hover {
@@ -205,6 +207,39 @@ button:hover {
   line-height: var(--par1LineHeight);
   font-size: 1.2em;
   margin-bottom: 2em;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 16em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-dark {
+  margin-bottom: 4em;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+  width: 8em;
+}
+
+i {
+  font-size: 1.8em;
+  color: var(--purple500);
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+i:hover {
+  color: var(--green);
 }
 
 /* ... */
